@@ -73,8 +73,6 @@ const App: React.FC = () => {
           <option value='pending'>Pending</option>
           <option value='completed'>Completed</option>
         </select>
-
-        <button onClick={fetchTransactions}>Search</button>
       </div>
 
       {loading && <p>Loading transactions...</p>}
