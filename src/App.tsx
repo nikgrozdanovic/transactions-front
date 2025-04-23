@@ -26,7 +26,6 @@ const App: React.FC = () => {
       setLoading(true);
 
       const params = new URLSearchParams();
-      console.log(params);
       if (filterCategory) params.append('category', filterCategory);
       if (filterStatus) params.append('status', filterStatus);
 
